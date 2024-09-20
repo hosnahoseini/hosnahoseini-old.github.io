@@ -153,7 +153,9 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - _pages/about.md
+  - _pages/cv.md
+
   - files
 exclude:
   - "*.sublime-project"
@@ -166,6 +168,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  
   - CHANGELOG
   - Capfile
   - config
